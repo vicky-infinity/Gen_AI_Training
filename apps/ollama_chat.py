@@ -111,7 +111,7 @@ Current user message:
 # model="nemotron-3-ultra-cloud"
 
 
-# (myenv) PS C:\Users\VickyVijayPatil\Downloads\Projects\IDP> python .\olama.py
+# Run from the project root: python apps\ollama_chat.py
 # Enter your queryhe
 # <bound method BaseModel.model_dump_json of AIMessage(content='I\'m sorry, but "he" doesn\'t provide enough context to understand what you\'re asking about. Could you please provide more information or rephrase your question? I\'d be happy to help if you can clarify what you\'re looking for.', additional_kwargs={}, response_metadata={'model': 'qwen2.5:1.5b', 'created_at': '2026-08-27T11:30:04.0777953Z', 'done': True, 'done_reason': 'stop', 'total_duration': 4002409900, 'load_duration': 2239778900, 'prompt_eval_count': 30, 'prompt_eval_duration': 117948000, 'eval_count': 50, 'eval_duration': 1634963000, 'logprobs': None, 'model_name': 'qwen2.5:1.5b', 'model_provider': 'ollama'}, id='lc_run--01a042fb-def6-72c2-ad94-4323717c08d3-0', tool_calls=[], invalid_tool_calls=[], usage_metadata={'input_tokens': 30, 'output_tokens': 50, 'total_tokens': 80})>
 
