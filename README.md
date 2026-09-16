@@ -20,3 +20,13 @@ python scripts/prepare_rag_data.py
 It removes cookie-banner records, normalizes excess whitespace while retaining
 paragraph breaks, and writes `data/processed/vm_website_rag.json`. The raw
 source file remains unchanged.
+
+## Prepare the structured ValueMomentum RAG data
+
+```powershell
+python scripts/preprocess_valuemomentum_rag.py
+```
+
+This reads the root `valuemomentum_data.json`, excludes tag and thin pages,
+removes exact duplicate page text, and writes cleaned pages plus embedding-ready
+chunks to `data/processed/`.

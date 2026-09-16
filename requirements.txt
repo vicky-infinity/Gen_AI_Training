@@ -33,3 +33,9 @@ packaging==26.3
 distro==1.9.0
 chatollama==0.2.13
 asyncio==4.0.0
+python-docx==1.2.0
+langchain-text-splitters==1.1.2
+chromadb
+sentence-transformers
+langchain-chroma
+langchain-huggingface
