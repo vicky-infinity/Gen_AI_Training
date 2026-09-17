@@ -30,7 +30,7 @@ def reset_persist_dir(path: str) -> None:
         print(f"Existing DB found at '{path}', deleting for a fresh rebuild...")
         shutil.rmtree(persist_path)
 
-
+# this is the main loop
 def main():
     start = time.time()
 
